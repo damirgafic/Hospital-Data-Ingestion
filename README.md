@@ -4,7 +4,7 @@ This notebook orchestrates the ingestion of hospital datasets, managing both met
 
 The notebook performs three main functions:
 
-1. **Parallel Dataset Download:** Hospital dataset files are downloaded in parallel and saved as Delta tables if they are new or if their modified date is more recent than the one recorded in the metadata table.
+1. **Parallel Dataset Download:** Hospital dataset files are downloaded in parallel and saved as Delta in the landing zone if they are new or if their modified date is more recent than the one recorded in the metadata table.
 
 2. **Metadata Table Update:** The `hospital_metadata` table is updated by inserting new records for previously untracked tables or updating columns such as `last_updated_date` and `batch_date` to reflect the latest data load.
 
