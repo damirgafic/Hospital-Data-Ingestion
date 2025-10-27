@@ -1,6 +1,6 @@
 # Hospital Data Ingestion
 
-This notebook orchestrates the ingestion of hospital datasets, managing both metadata and bronze schemas. The metadata schema tracks information about hospital related tables, while the bronze layer stores raw tables loaded from API-downloaded files.
+This Databricks notebook orchestrates the ingestion of hospital datasets, managing both metadata and bronze schemas. The metadata schema tracks information about hospital related tables, while the bronze layer stores raw tables loaded from API-downloaded files.
 
 The notebook performs three main functions:
 
